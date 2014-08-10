@@ -9,6 +9,7 @@
  </head><br /><br /><br /><br />
  
 <body>
+<noscript>
 <?
 $soal1=$_POST["soal1"]; 
 $soal2=$_POST["soal2"];
@@ -93,7 +94,7 @@ if ($soal10=="B"){
     }	
 
 echo "Nilai total anda adalah".$nilai;
-?> <br />
+?> </noscript><br />
 <img src="Gambar SD/scorer.png" width="170" height="170" />
 </div>
 </body>
