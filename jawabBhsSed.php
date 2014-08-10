@@ -1,15 +1,7 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>Untitled Document</title>
-<div data-role="page" id="" >
-	<div data-role="header" data-theme="b">
- <a data-role="button" href="Soal_Bindonesia.php" data-transition="pop" data-icon="arrow-l" data-corners="false">Back</a>
- </head><br /><br /><br /><br />
+<html>
+<head><title></title></head>
  
 <body>
-<noscript>
 <?
 $soal1=$_POST["soal1"]; 
 $soal2=$_POST["soal2"];
@@ -94,8 +86,6 @@ if ($soal10=="B"){
     }	
 
 echo "Nilai total anda adalah".$nilai;
-?> </noscript><br />
-<img src="Gambar SD/scorer.png" width="170" height="170" />
-</div>
+?>
 </body>
 </html>
