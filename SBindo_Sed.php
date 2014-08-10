@@ -3,8 +3,6 @@
 <head> 
 <meta charset="utf-8">
 <title>jQuery Mobile Web App</title>
-<link href="jquery-mobile/jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
-<link href="jquery-mobile/jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
 <style type="text/css">
 body {
 }
@@ -14,8 +12,6 @@ body,td,th {
 	font-size: small;
 }
 </style>
-<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
-<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
 </head> 
 <body> 
 
